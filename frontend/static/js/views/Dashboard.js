@@ -12,6 +12,8 @@ export default class extends AbstractView {
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Quisque nec maximus nisl. Nulla facilisi.
+             </p>
+             <p>   
                 <a href="/posts" data-link>View recent posts</a>.
             </p>
         `;
