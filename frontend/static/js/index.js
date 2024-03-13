@@ -30,6 +30,8 @@ const router = async () => {
   console.log(match.route.view());
 };
 
+window.addEventListener("popstate", router); // Show browsing history in the console
+
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
     if (e.target.matches("[data-link]")) {
