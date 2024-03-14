@@ -10,8 +10,7 @@ export default class extends AbstractView {
     return `
             <h1>Settings</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Quisque nec maximus nisl. Nulla facilisi.
+                This is where you manage your privacy and other account settings.
              </p>
             
         `;
